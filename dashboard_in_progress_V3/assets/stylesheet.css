@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,400;0,500;0,800;1,200;1,400;1,500;1,800&display=swap');
+
+
+body {
+  background-color: #e6eced;
+  color: #434747;
+  font-family: Barlow;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  padding: 0 1rem;
+  display: flex;
+}
+
+.header {
+	background-color: #ffa16b;
+	display: flex;
+	margin: 0rem;
+	padding-left: 4rem;
+}
+
+
+
+.graph-container {
+  width: 55%;
+  margin-top: 1rem;
+  position: relative;
+  float: right;
+}
+
+.graphs {
+	margin-left: 1rem;
+	margin-top: 0;
+	margin-bottom;
+}
+
+#marginalhist {
+	width: 60%;
+	height: 25vh;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+#marginalhist2 {
+	width: 25%;
+	height: 60vh;
+	padding: 0;
+	margin-top: 0;
+}
+
+#colormatrix {
+	width: 25%;
+	height: 25vh;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+#adjacency {
+	width: 60%;
+	height: 60vh;
+	padding: 0;
+	margin-top: 0;
+}
+
+
+.wrapper-list {
+  border-right: 0.2rem solid #ffa16b;
+  width: 35%;
+  height: 70%;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.selectionrow {
+	width: 100%;
+	height: 3.5vh;
+}
+
+.selectionrow2 {
+	width: 100%;
+	height: 5vh;
+	margin-bottom: 1rem;
+}
+
+#country {
+  min-width: 60%;
+  margin-bottom: 1rem;
+  position: relative;
+  float: left;
+}
+
+#datepicker {
+	max-width: 50%;
+}
+
+#date-slider {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+#parallels {
+	height: 25vh;
+	margin-top: 1rem;
+}
+
+#attributes {
+  min-width: 35%;
+  position: relative;
+  float: right;
+}
+
+.dropdown {
+  color: #3f3f3f;
+}
+
+
+
+.Select-control {
+  background-color: #FFFFFF;
+
+}
+
