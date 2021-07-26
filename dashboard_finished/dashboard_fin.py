@@ -43,7 +43,7 @@ df.new_cases_per_million = df.new_cases_per_million.astype(float)
 ###Farbskala erstellen###
 
 #Vorbereitete Farbskala einlesen (200x200Px PNG mit Adobe Illustrator erstellt)
-img = io.imread('C:\\Users\\Sarah\\Documents\\Studium\\_BT\\farbskala\\farbskala3.png')
+img = io.imread('farbskala3.png')
 
 #Farbwerte der einzelnen Pixel in einem Array speichern
 img_arr = np.array(img)
