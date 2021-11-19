@@ -543,7 +543,7 @@ def update_countries(country_slctd, date_slctd1, date_slctd2, attr_slctd):
     
 
     #Implementieren der Farbskala in das Dashboard
-    img = io.imread('C:\\Users\\Sarah\\Documents\\Studium\\_BT\\farbskala\\farbskala3.png')
+    img = io.imread('farbskala3.png')
     
     fig6 = px.imshow(img, height=100, width=100)
     fig6.update_xaxes(visible=False, showticklabels=False, automargin=True)
